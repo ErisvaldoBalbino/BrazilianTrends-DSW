@@ -19,7 +19,6 @@ header {
     background-color: #FFFDF0;
     height: 179px;
     width: 100%;
-    padding: 0;
     justify-items: center;
     padding: 30px 0;
 }
@@ -95,7 +94,6 @@ section {
     justify-content: center;
     flex-direction: column;
     position: relative;
-
 }
 
 .secao {
@@ -238,4 +236,60 @@ main {
 footer {
     background-color: #2668A2;
     height: 494px;
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.footer {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 95px;
+}
+
+.grid4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.griditem4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.emailbar {
+    background-color: #F4D9D2;
+    border-radius: 5px;
+    width: 496px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botaoemail {
+    background-color: #CC876A;
+    border: none;
+    color: white;
+    height: 100%;
+    display: flex;
+    width: 159px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer-hr {
+    width: 1008px;
+    height: 2px;
+    background-color: #F4D9D2;
+    margin: 30px 0;
 }
