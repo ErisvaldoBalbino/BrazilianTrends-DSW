@@ -114,7 +114,7 @@ section {
 }
 
 main {
-    height: 2382px;
+    height: 1875px;
     width: 100%;
     margin: 0;
     padding: 0px 136px;
@@ -196,7 +196,44 @@ main {
     margin-left: 5px;
 }
 
+.grid2 {
+    display: grid;
+    grid-template-columns: 494px 494px ;
+    gap: 20px;
+    margin-top: 74px;
+    justify-content: center;
+}
 
+.griditem2 {
+    width: 494px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+}
+
+.griditem2 p {
+    display: flex;
+    position: absolute;
+    top: 167px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: #FFFFFF;
+    font-size: 80px;
+    text-shadow: #000000 0px 0px 8px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 243px 243px 243px 243px;
+    gap: 12px;
+    margin-top: 29px;
+    justify-content: center;
+}
 
 footer {
     background-color: #2668A2;
