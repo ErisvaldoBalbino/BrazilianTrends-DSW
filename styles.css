@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    font-family: 'Quilin', sans-serif;
+}
+
+section, main, footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFFDF0;
+    height: 179px;
+    width: 100%;
+    padding: 0;
+    justify-items: center;
+    padding: 30px 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    color: #BE2233;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar {
+    background-color: #F4D9D2;
+    border-radius: 5px;
+    width: 496px;
+    height: 44px;
+}
+
+.searchel {
+    color: #CC876A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.conta {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0.8;
+
+}
+
+.bola {
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    background-color: #CC876A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFDF0;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    color: #346D9E;
+    list-style-type: none;
+}
+
+li {
+    padding: 0 20px;
+    font-size: 24px;    
+}
+
+section {
+    background-color: #F08AA0;
+    height: 369px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+main {
+    height: 2382px;
+    width: 100%;
+    margin: 0;
+    padding: 0px 136px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 243px 243px 243px 243px;
+    gap: 12px;
+    margin-top: 29px;
+    justify-content: center;
+}
+
+.griditem {
+    width: 243px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+}
+
+.botao {
+    display: flex;
+    width: 88px;
+    height: 21px;
+    justify-content: center;
+    align-items: center;
+    background-color: #346D9E;
+    border-radius: 5px;
+    position: absolute;
+    top: 228px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.botao p {
+    color: #FFFFFF;
+    font-size: 11px;
+    
+}
+
+.infos {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    font-size: 24px;
+    height: 150px;
+    width: 100%;
+    background-color: #FFF;
+    border: 3px solid #DEDEDE;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.infos h1 {
+    font-size: 24px;
+    color: #CC876A;
+    margin-top: 19px;
+    margin-left: 5px;
+}
+
+.infos h2 {
+    font-size: 24px;
+    color: #346D9E;
+    margin-top: 23px;
+    margin-left: 5px;
+}
+
+.infos p {
+    font-size: 15px;
+    color: #346D9E;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+
+
+footer {
+    background-color: #2668A2;
+    height: 494px;
+}
