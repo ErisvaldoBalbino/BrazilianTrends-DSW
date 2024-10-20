@@ -86,7 +86,7 @@ li {
 
 section {
     background-color: #F08AA0;
-    background-image: url(/img/Group\ 10.svg);
+    background-image: url(/img/secaoback.svg);
     height: 369px;
     width: 100%;
     margin: 0;
@@ -184,7 +184,7 @@ main {
 .infos h2 {
     font-size: 24px;
     color: #346D9E;
-    margin-top: 23px;
+    margin-top: 10px;
     margin-left: 5px;
 }
 
